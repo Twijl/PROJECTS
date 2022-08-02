@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 907px) {
+  .browser {
+    .container.grid {      
+      grid-template-columns: 1fr;
+      justify-content: center;
+      grid-template-areas:
+        "nav"
+        "left"
+        "right";
+
+      .left-side {
+        padding: 15px 0;
+      }
+      .right-side {
+        justify-content: center;
+        padding: 15px 0 50px;
+      }
+    }
+  }
+  .about {
+    .container.grid {
+        padding: 15px;
+    }
+  }
+
+}

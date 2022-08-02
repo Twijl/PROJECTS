@@ -1,0 +1,227 @@
+
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  // padding: 0 40px;
+
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  &-outline {
+    background-color: transparent;
+    border: 1px #fff solid;
+  }
+  &:hover {
+    transform: scale(0.98);
+  }
+}
+
+.shadow {
+  -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+.text-center {
+  text-align: center;
+}
+
+// .card {
+//   background-color: #fff;
+//   color: #333;
+//   border-radius: 10px;
+//   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+//   padding: 20px;
+//   margin: 10px;
+// }
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  justify-content: center; 
+  &-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  }
+}
+
+/* Backgrounds & colored buttons */
+.bg,
+.btn {
+  &-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+
+  &-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+
+  &-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+  }
+
+  &-light {
+    background-color: var(--light-color);
+    color: #333;
+  }
+}
+
+/* Text colors */
+// .text {
+//   &-primary {
+//     color: $primary-color;
+//   }
+
+//   &-secondary {
+//     color: $secondary-color;
+//   }
+
+//   &-light {
+//     color: $light-color;
+//   }
+
+//   &-dark {
+//     color: $dark-color;
+//   }
+// }
+
+/*  */
+.bg-primary,
+.btn-primary,
+.bg-secondary,
+.btn-secondary,
+.bg-dark,
+.btn-dark {
+  a {
+    color: #fff;
+  }
+}
+
+/* Text sized */
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+
+/* Margin & Padding */
+.my {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 1.5rem 0;
+  }
+  &-3 {
+    margin: 2rem 0;
+  }
+  &-4 {
+    margin: 3rem 0;
+  }
+  &-5 {
+    margin: 4rem 0;
+  }
+}
+
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 1.5rem 0;
+  }
+  &-3 {
+    padding: 2rem 0;
+  }
+  &-4 {
+    padding: 3rem 0;
+  }
+  &-5 {
+    padding: 4rem 0;
+  }
+}
+
+.p { 
+  &-3 {
+  padding: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
